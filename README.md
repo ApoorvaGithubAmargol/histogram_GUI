@@ -5,11 +5,14 @@ This Project use of local histogram to understand image processing.
 I have used MATLAB GUI feature to generate user interface.There are two methods to do so:
 
 1. we can type the following in the command window and a top up window opens which you can modify according to requirements
-appdesigner
+
+        appdesigner
 
 
-2. Using the main code itself
-    uicontrol( Name,Value )
+3. Using the main code itself with this format:
+   
+         uicontrol( Name,Value )
+   
 creates a user interface control with property values specified using one or more name-value pair arguments
 
 
